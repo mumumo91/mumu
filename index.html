@@ -32,37 +32,109 @@
  img.{
   position:absolute;top:100px; left:100px;z-index: 1;
  }
-#grid div.1{
-  border-right: 1px solid gray;
-  width:100px;
-  margin:0;
-}
-#grid{
+.main{
   display: grid;
-  grid-template-columns: 200px 1fr
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+}
+.high{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+.row{
+  display: grid;
+  border-right: 1px solid gray;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+  border:1px dashed orange;
+}
+.kyoka{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
 }
 </style>
 </head>
 <body>
 <h1><strong><a href="index.html" style="color:white">무무교실</a></strong></h1>
 <img src="pic1.jpg" width="100%" height= 100px>
-
-<div id=grid>
 <div>
-<ol>
- <li><a href="2.html"class="saw">学級経営</a></li>
- <li><a href="3.html"class="saw">校務文書</a></li>
- <li><a href="1.html"class="saw">教科</a></li>
- <li><a href="4.html"class="saw">行事</a></li>
- <li><a href="5.html"class="saw">評価</a></li>
- <li><a href="6.html"class="saw">資料室</a></li>
-</ol>
+
+<div class= "row">
+  <div><a href="1.html" title="教科">教科</a></div>
+  <div><a href="2.html" title="学級経営">学級経営</a></div>
+  <div><a href="3.html" title="校務文書">校務文書</a></div>
+  <div><a href="4.html" title="行事">行事</a></div>
+  <div><a href="5.html" title="評価">評価</a></div>
+  <div><a href="6.html" title="資料室">資料室</a></div>
+</div>
+<div class="kyoka">
+        <dl>
+          <!--  <dt><a href="1.html" title="教科">教科</a></dt>-->
+            <dd><a href="1.1.html"　title="国語">国語</a></dd>
+            <dd><a href="1.2.html"　title="算数">算数</a></dd>
+            <dd><a href="1.3.html"　title="社会">社会</a></dd>
+            <dd><a href="1.4.html"　title="理科">理科</a></dd>
+            <dd><a href="1.12.html"　title="生活科">生活科</a></dd>
+            <dd><a href="1.5.html"　title="外国語">外国語</a></dd>
+            <dd><a href="1.6.html"　title="体育">体育</a></dd>
+            <dd><a href="1.7.html"　title="図工">図工</a></dd>
+            <dd><a href="1.8.html"　title="音楽">音楽</a></dd>
+            <dd><a href="1.9.html"　title="家庭科">家庭科</a></dd>
+            <dd><a href="1.10.html"　title="総合">総合</a></dd>
+            <dd><a href="1.11.html"　title="特活">特活</a></dd>
+        </dl>
+
+        <dl>
+            <!--<dt><a href="2.html" title="学級経営">学級経営</a></dt>-->
+            <dd><a href="2.1.html"　title="掲示物">掲示物</a></dd>
+            <dd><a href="2.2.html"　title="三月の準備">三月の準備</a></dd>
+            <dd><a href="2.3.html"　title="授業開き">授業開き</a></dd>
+
+        </dl>
+
+        <dl>
+        <!--  <dt><a href="3.html" title="校務文書">校務文書</a></dt>-->
+          <dd><a href="3.1.html"　title="教務部">教務部</a></dd>
+          <dd><a href="3.2.html"　title="行事部">行事部</a></dd>
+          <dd><a href="3.3.html"　title="学級活動部">学級活動部</a></dd>
+          <dd><a href="3.4.html"　title="児童活動部">児童活動部</a></dd>
+          <dd><a href="3.5.html"　title="研究部">研究部</a></dd>
+        </dl>
+
+        <dl>
+        <!--  <dt><a href="4.html" title="行事">行事</a></dt>-->
+          <dd><a href="4.1.html"　title="入学式">入学式</a></dd>
+          <dd><a href="4.2.html"　title="運動会">運動会</a></dd>
+          <dd><a href="4.3.html"　title="全校朝会">全校朝会</a></dd>
+          <dd><a href="4.4.html"　title="学習発表会">学習発表会</a></dd>
+          <dd><a href="4.5.html"　title="卒業式">卒業式</a></dd>
+        </dl>
+
+        <dl>
+        <!--  <dt><a href="5.html" title="評価">評価</a></dt>-->
+          <dd><a href="5.1.html"　title="テスト集計">テスト集計</a></dd>
+          <dd><a href="5.2.html"　title="通知表">通知表</a></dd>
+        </dl>
+
+        <dl>
+        <!--  <dt><a href="6.html" title="資料室">資料室</a></dt>-->
+          <dd><a href="6.1.html"　title="写真資料">写真資料</a></dd>
+          <dd><a href="6.2.html"　title="文書資料">文書資料</a></dd>
+        </dl>
+
+    </div>
+
+<div class= "high">
+<div>
  <h4>＜リンク＞</h4>
-  <input type="checkbox"><a href="https://happylilac.net/syogaku.html" target="_blank" title="ちびむす">ちびむす</a>
+<ul><input type="checkbox"><a href="https://happylilac.net/syogaku.html" target="_blank" title="ちびむす">ちびむす</a></ul>
+<ul><input type="checkbox"><a href="https://www.moe.go.kr/" target="_blank" title="교육부">교육부</a></ul>
+<ul><input type="checkbox"><a href="https://www.mext.go.jp/" target="_blank" title="文部科学省">文部科学省</a></ul>
 </div>
 <div>
  <h3 style="color:pink">일본 현직 초등학교 교사가 전하는 학교 생활</h3>
-<div id=grid>
+<div class="main">
 <div>
 <h3>메인페이지</h3>
 </div>
