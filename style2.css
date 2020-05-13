@@ -1,0 +1,14 @@
+.hehe{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  margin: 10px;
+
+}
+.hoho{
+  border-right:1px solid #00BFFF;
+    padding-right: 25px;
+    background-color: #E0FFFF;
+}
+.article{
+padding-left: 25px;
+}
