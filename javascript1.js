@@ -1,6 +1,8 @@
-$('#要素１ li').hover(function(){
-  $(this).children('ul').show();
+$(function(){
+$('.要素１ li').hover(function(){
+  $("ul:not(:animated)", this).slideDown();
 },
 function(){
-$(this).children('ul').hide();
+$("ul.dropdown",this).slideUp();
+});
 });
