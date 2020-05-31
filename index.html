@@ -9,8 +9,16 @@
   $("#sideber").load("sideber.html");
     $("#footer").load("footer.html");
 });</script>
-<script type="text/javascript">
-writeHeader();
+<script >
+$(function (){
+$('.要素１ li').hover(function(){
+  $("ul:not(:animated)", this).slideDown();
+},
+function(){
+$("ul.dropdown",this).slideUp();
+});
+});
+
 </script>
 </head>
 <body>
